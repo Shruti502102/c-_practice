@@ -1,0 +1,7 @@
+#include<iostream>
+using namespace std;
+int main(){
+  cout<<"shruti:-)"<<'\n';
+  cout<<"shruti:-)"<<endl;//new line and nex statement
+  cout<<"shruti:-)\n";//tell compiler that statement has ended here
+}
