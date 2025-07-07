@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+int main(){
+  int a=123;//4BYTE=32BITS
+  cout<<a<<endl;
+  char b='v';//1 BYTE=8 BITS
+  cout<<b<<endl;
+  bool bl=true;//1 BYTE
+  cout<<bl<<endl;
+  float f=43.43;
+  cout<<f <<endl;
+  double d=1.323;
+  cout<<d<<endl;
+  int size = sizeof(d);
+  cout<<"Size of a is : "<<size<<endl;
+}
